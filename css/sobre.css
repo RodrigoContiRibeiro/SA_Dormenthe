@@ -1,0 +1,213 @@
+@font-face {
+  font-family: "Ubuntu";
+  src: url(../fonts/Ubuntu-Medium.ttf);
+}
+#voltar {
+  display: none;
+}
+iframe {
+  display: none;
+  width: 100%;
+  height: 90%;
+  position: fixed;
+}
+#logo {
+  width: 60px;
+  margin-right: 15px;
+  border-radius: 70px;
+  text-align: center !important;
+}
+#nave_bar {
+  background-color: #310a42 !important;
+  opacity: 90% !important;
+}
+#nave_titulo,
+button,
+#voltar {
+  color: #dcdddc;
+  font-family: "Ubuntu" !important;
+}
+#nave_titulo:hover,
+button:hover,
+#voltar {
+  text-decoration: underline;
+}
+.col-sm {
+  text-align: center;
+  font-family: "Ubuntu";
+  color: #dcdddc;
+  font-size: 25px;
+  background: linear-gradient(
+    90deg,
+    rgba(49, 25, 58, 1) 40%,
+    rgba(39, 22, 46, 0.8491596467688638) 100%
+  ) !important;
+  opacity: 90%;
+  margin-top: 15px;
+}
+#cc {
+  height: 250px !important;
+  width: 275px;
+  border-radius: 200px;
+  padding: 20px;
+}
+#kirito {
+  height: 250px !important;
+  width: 275px;
+  border-radius: 200px;
+  padding: 20px;
+}
+#rin {
+  height: 250px !important;
+  width: 275px;
+  border-radius: 200px;
+  padding: 20px;
+}
+#carrossel_texto {
+  font-family: Ubuntu !important;
+  color: #851ad8;
+}
+#welcome {
+  width: 100%;
+  height: 400px;
+  margin-top: 25px;
+  margin: auto;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: stretch;
+  align-content: flex-start;
+}
+#senai {
+  min-width: 50%;
+  max-width: 100%;
+  height: 400px;
+  background-image: url(../img/escola-s.png);
+  background-position-y: center;
+  background-position-x: center;
+  background-size: 100%;
+  background-repeat: no-repeat;
+  margin-bottom: 0px;
+  justify-content: center;
+  display: flex;
+  align-items: center;
+  opacity: 90%;
+  border: #080115 solid 5px;
+  background-color: #080115;
+}
+#introducao {
+  min-width: 50%;
+  max-width: 100%;
+  color: #dcdddc;
+  font-family: "Ubuntu";
+  font-size: 30px !important;
+  background: linear-gradient(
+    90deg,
+    rgba(49, 25, 58, 1) 5%,
+    rgba(39, 22, 46, 0.8491596467688638) 25%
+  );
+  height: 400px;
+  padding-right: 50px;
+  text-align: right;
+  justify-content: end;
+  display: flex;
+  align-items: center;
+}
+#texto {
+  text-size-adjust: 1px;
+  width: 450px;
+}
+body {
+  /* background: linear-gradient(90deg, #3c1c49, #27162e) !important; */
+  background-image: url(../img/RODRIGO_FDP_COSMOS.png) !important;
+  background-repeat: initial !important;
+}
+h1 {
+  color: #dcdddc;
+  text-align: center;
+  font-family: "Ubuntu";
+  font-size: 100px !important;
+}
+
+h2 {
+  width: 100%;
+  font-size: 60px !important;
+  color: #dcdddc;
+  text-align: center;
+  font-weight: 700 !important;
+}
+
+@media only screen and (min-width: 0px) {
+  #senai {
+    min-width: 100% !important;
+  }
+  #introducao {
+    min-width: 100% !important;
+  }
+}
+@media only screen and (min-width: 1000px) {
+  #senai {
+    min-width: 50% !important;
+  }
+  #introducao {
+    min-width: 50% !important;
+  }
+}
+@media only screen and (min-width: 991px) {
+  #nave_titulo,
+  button,
+  #voltar {
+    padding-left: 0px;
+  }
+}
+
+html,
+body {
+  margin: 0px;
+  height: 100%;
+  width: 100%;
+}
+#tsparticles {
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  z-index: -1;
+}
+button {
+  border: none;
+  background: none;
+}
+#rodape {
+  color: #dcdddc;
+  width: 100%;
+  background: linear-gradient(
+    90deg,
+    rgb(45, 27, 51) 40%,
+    rgba(33, 20, 37, 0.849) 100%
+  ) !important;
+  opacity: 90% !important;
+  margin-top: 35px;
+  font-family: Ubuntu !important;
+  bottom: 0;
+}
+#criadores {
+  font-weight: bold;
+}
+#creators {
+  margin-top: 20px;
+}
+
+#vn {
+  font-size: 40px;
+}
+
+#link {
+  color: #b62ed1 !important;
+}

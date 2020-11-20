@@ -1,0 +1,23 @@
+Colocar imagem ao lado do texto:
+
+Lorem Ipsum |  IMG
+Lorem Ipsum |  IMG
+Lorem Ipsum |  IMG
+
+Colocar uma indicação na seleção da página no navbar
+E com hover também. Imagem no início e navbar depois.
+https://www.blackmagicdesign.com/br/products/davinciresolve/cut
+
+Imagens:
+https://www.maujor.com/tutorial/css3-filters.php
+
+Navbar:
+https://getbootstrap.com/docs/3.4/components/#navbar
+
+https://monogatari.io/
+
+Favicon
+
+Aegis Framework
+
+https://css-tricks.com/aos-css-driven-scroll-animation-library/
