@@ -112,8 +112,11 @@ button:hover,
   align-items: center;
 }
 #texto {
+  min-width: 50%;
+  max-width: 100%;
   text-size-adjust: 1px;
   width: 450px;
+  margin-left: 20px;  
 }
 body {
   /* background: linear-gradient(90deg, #3c1c49, #27162e) !important; */
@@ -140,6 +143,9 @@ h2 {
   }
   #introducao {
     min-width: 100% !important;
+  }
+  #texto{
+    min-width: 100%;
   }
 }
 @media only screen and (min-width: 1000px) {
