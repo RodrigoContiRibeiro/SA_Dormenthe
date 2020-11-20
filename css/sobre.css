@@ -11,6 +11,10 @@ iframe {
   height: 90%;
   position: fixed;
 }
+#play{
+  margin-top: 0;
+  margin-bottom: 0;
+}
 #logo {
   width: 60px;
   margin-right: 15px;
@@ -63,10 +67,7 @@ button:hover,
   border-radius: 200px;
   padding: 20px;
 }
-#carrossel_texto {
-  font-family: Ubuntu !important;
-  color: #851ad8;
-}
+
 #welcome {
   width: 100%;
   height: 400px;
