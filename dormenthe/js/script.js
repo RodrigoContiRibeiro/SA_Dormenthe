@@ -69,18 +69,10 @@ monogatari.assets('images', {
 
 // Define the backgrounds for each scene.
 monogatari.assets('scenes', {
-	'noite_ceu': 'noite_ceu_lua.png',
-	'predio_noite': 'predio_noite.png',
-	'compelexo_noite': 'predios.png',
 	'rua_noite': 'rua.png',
 	'rua_noite_iluminada': 'rua_iluminada.png',
-	'rua_noite_neve': 'rua_neve.png',
-	'caverna_01': 'Cavern_01.jpg',
 	'caverna_02': 'Cavern_02.png',
-	'caverna_03': 'Cavern_03.jpg',
 	'caverna_04': 'Cavern_04.jpg',
-	'caverna_05': 'Cavern_05.jpg',
-	'caverna_06': 'Cavern_06.jpg',
 	'you_Win':'youWin.png',
 	'game_Over':'gamerOver.png',
 });
